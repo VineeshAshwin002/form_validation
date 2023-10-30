@@ -1,0 +1,74 @@
+body
+{
+    background-image: linear-gradient(skyblue,purple);
+    background-attachment: fixed;
+    font-family: 'poppins',sans-serif;
+    margin: 0;
+}
+
+.f{
+    width:400px;
+    margin: 12vh auto 0 auto;
+    background-color: whitesmoke;
+    border-radius: 5px;
+    padding: 30px;
+}
+
+h1{
+    text-align: center;
+   
+}
+
+.f button{
+    background-color: blue;
+    color: white;
+    padding: 8px 20px;
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: bolder;
+    border-radius: 5px;
+    border: none;
+    margin: 20px 0px;
+    cursor: pointer;
+    width:100%;
+}
+
+.container
+{
+    display: flex;
+    flex-direction: column;
+   
+}
+.input-group{
+    display: flex;
+    flex-direction: column;  
+    margin-bottom: 15px; 
+}
+
+.input-group input{
+    border-radius: 5px;
+    font-size: 20px;
+    margin-top: 5px;
+    padding: 10px;
+    border: 1px solid blueviolet;
+}
+
+.input-group input{
+    outline: 0;
+}
+
+.input-group .error
+{
+    color: red;
+    font-size: 16px;
+    margin-top: 5px;
+}
+
+.input-group.success input
+{
+    border-color: rgb(54, 211, 54);
+}
+
+.input-group.failure input{
+    border-color: red;
+}
